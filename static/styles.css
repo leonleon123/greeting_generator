@@ -1,0 +1,62 @@
+body, html{
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+body{
+	background-image: 
+	url("https://images.fineartamerica.com/images-medium-large-5/seamless-trendy-tropical-pattern-with-ekaterina-bedoeva.jpg");
+}
+#root{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.4);
+	border-radius: 20px;
+	padding: 10px;
+}
+p,h1{
+	font-family: 'Fira Sans', sans-serif;
+	color: white;
+}
+h1{
+	font-size: 30px;
+}
+#result{
+	color: black;
+	width: 400px;
+	background-color:rgba(255, 255, 255, 0.5);
+	border-radius: 20px;
+	padding: 15px 5px;
+}
+input{
+	margin: 20px;
+	background-color: rgba(0, 0, 0, 0.5);
+	border: 3px solid white;
+	border-radius: 10px;
+	padding: 5px;
+	color: white;
+	font-size: 16px;
+}
+#lang{
+	width: 100%;
+}
+#lang>*{
+	margin: 20px;
+	border-radius: 10px;
+	padding: 10px;
+	border: 0px;
+	float: right;
+	opacity: 0;
+}
+#lang:hover>*{
+	opacity: 1;
+}
+#lang>*:hover{
+	background-color: #FF7697;
+	cursor: pointer;
+}

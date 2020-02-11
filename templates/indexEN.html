@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <script type="text/javascript" 
+            src="{{ url_for('static', filename='script.js') }}"></script>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}"/>
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans&display=swap" rel="stylesheet">
+
+</head>
+<body>    
+    <div id="root">
+        <div id="lang"><button>SI</button><button>EN</button></div>
+        <h1>enter your greeting card wish keywords</h1>
+        <p>keywords,must,be,separated,with,commas</p>
+        <input id="inp" placeholder=""/>
+        <input id="len" placeholder="Length of the message"/>
+        <p id="result"></p>
+    </div>    
+</body>
+</html>
